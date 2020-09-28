@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Services\" />
+    <PackageReference Include="Microsoft.Azure.Devices" Version="1.22.0" />
+    <PackageReference Include="Microsoft.Azure.Devices.Client" Version="1.30.0" />
   </ItemGroup>
 
 </Project>
