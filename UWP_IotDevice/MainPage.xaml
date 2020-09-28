@@ -17,7 +17,7 @@
 
         <Button x:Name="btnSendMessage" Click="btnSendMessage_Click" Grid.Row="0" Width="auto" Height="150" HorizontalAlignment="Center" Content="Send Message to IotDevice" FontSize="35"/>
 
-        <ListView Grid.Row="1" Margin="15">
+        <ListView x:Name="ListOfMessage"  Grid.Row="1" Margin="15">
 
         </ListView>
 
