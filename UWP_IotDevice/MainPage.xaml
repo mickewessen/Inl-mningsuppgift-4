@@ -9,13 +9,13 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Margin="20" Padding="20">
+    <Grid Margin="20" Padding="20" FocusVisualPrimaryBrush="Gray" BorderBrush="Gray" Background="Gray">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Button x:Name="btnSendMessage" Click="btnSendMessage_Click" Grid.Row="0" Width="auto" Height="150" HorizontalAlignment="Center" Content="Send Message to IotDevice" FontSize="35"/>
+        <Button x:Name="btnSendMessage" Click="btnSendMessage_Click" Grid.Row="0" Width="auto" Height="150" HorizontalAlignment="Center" Content="Send Message to IotDevice" FontSize="35" Background="Gray"/>
 
         <ListView x:Name="ListOfMessage"  Grid.Row="1" Margin="15">
 
